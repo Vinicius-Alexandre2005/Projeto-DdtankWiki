@@ -39,6 +39,13 @@ body{
     margin: 30px;
 }
 
+h3{
+    font-style: normal;
+    font-family: poppins;
+    color: rgb(231, 227, 227);
+    margin: 30px;
+}
+
 p{
     font-style: normal;
     font-family: poppins;
