@@ -1,0 +1,116 @@
+@font-face {
+    font-family: poppins;
+    src: url(../CSS/Fontes/Poppins-Regular.ttf);
+}
+
+ul{
+    margin: 0;
+    padding-left: 45px;
+}
+
+li{
+    color: rgb(231, 227, 227);
+    font-family: poppins;
+}
+
+.imgs_armas{
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+em{
+    font-style: normal;
+    color: rgba(215, 28, 62, 0.829);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_exemplo{
+    color: rgb(231, 227, 227);
+    font-family: poppins;
+    margin-left: 30px;
+}
+
+.titulo_armas{
+    color: rgb(231, 227, 227);
+    font-family: poppins;
+    text-align: center;
+}
+
+.glossario-box {
+  margin-top: 18px;
+  padding: 16px;
+}
+
+.glossario-topo {
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.glossario-titulo {
+  text-align: center;
+  margin: 0;
+  font-family: poppins;
+  color: rgb(231, 227, 227);
+  font-weight: 600;
+}
+
+.glossario-seta {
+  height: 44px;
+  width: 44px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.glossario-seta:hover {
+  background: #2a2a2a;
+}
+
+.glossario-imagens {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+
+  align-items: start;
+  justify-items: center;
+}
+
+.glossario-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.glossario-item img {
+  height: 110px;
+  width: 120px;
+
+  object-fit: contain;
+  object-position: center;
+
+  display: block;
+  margin: 0;
+}
+
+.glossario-item p {
+  font-family: poppins;
+  color: rgb(231, 227, 227);
+  margin: 12px 0 0;
+  min-height: 48px;
+  line-height: 1.2;
+}
+
+

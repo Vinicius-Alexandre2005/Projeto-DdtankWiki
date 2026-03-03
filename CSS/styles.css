@@ -1,0 +1,189 @@
+@font-face {
+    font-family: poppins;
+    src: url(../CSS/Fontes/Poppins-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding-top: 75px;
+    background-color: rgb(41, 41, 41);
+}
+
+
+.h1_inicio{
+    text-align: center;
+    font-style: normal;
+    font-family: poppins;
+    color: rgb(231, 227, 227);
+}
+.h2_inicio{
+    text-align: center;
+    font-style: normal;
+    font-family: poppins;
+    color: rgb(231, 227, 227);
+}
+
+.corpo{
+    margin:120px;
+    margin-top: 20px;
+    background-color: rgb(83, 83, 83);
+    display: inline-block;
+}
+
+.h202_inicio{
+    font-style: normal;
+    font-family: poppins;
+    color: rgb(231, 227, 227);
+    margin: 30px;
+}
+
+p{
+    font-style: normal;
+    font-family: poppins;
+    color: rgb(231, 227, 227);
+    margin: 30px;
+}
+
+.imgs{
+    position: relative;
+    left: 100px;
+}
+
+.a01{
+    text-decoration: none;
+    color: rgb(231, 227, 227);
+}
+
+.a01:hover{
+    color: rgb(98, 169, 219);
+}
+
+.p_final{
+    padding-bottom: 20px;
+    border-bottom:solid 1px  rgb(143, 141, 141);;
+}
+
+.cabecalho{
+    position: absolute;
+    margin: 0;
+    top: 12px;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #1b1b1b;
+  height: 75px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+    display: block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: poppins;
+    font-style: normal;
+}
+
+nav li a:hover{
+    color: rgb(98, 169, 219);
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: rgb(231, 227, 227);
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition-delay: 10s;
+}
+
+.dropdown-menu a:hover{
+    color: rgb(98, 169, 219);
+}
+
+ol{
+    padding-left: 50px;
+}
+
+.tipo-armas {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 18px 0 10px;
+}
+
+.tipo-btn {
+  font-family: poppins;
+  color: rgb(231, 227, 227);
+  background: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.tipo-btn:hover {
+  background: #2a2a2a;
+}
+
+.tipo-btn.ativo {
+  border-color: rgb(168, 168, 168);
+  color: rgb(168, 168, 168);
+}
+
+.nav-btn {
+  background: none;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-family: poppins;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  color: rgb(212, 208, 208);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

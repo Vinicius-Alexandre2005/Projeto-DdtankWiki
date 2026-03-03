@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Glossário das Armas</title>
+        <link rel="stylesheet" href="../../CSS/styles.css">
+        <link rel="stylesheet" href="../../CSS/styles_armas.css">
+    </head>
+    <body>
+        <div data-include="../partials/header-sub.html"></div>
+        <div class="titulos">
+            <h1 class="h1_inicio">Glossário das Armas</h1>
+        </div>
+        <div class="corpo">
+        <h2 class="h202_inicio">
+            Como funciona o glossário das armas?    
+        </h2>
+        <p>
+            O glossário das armas foi feito para mostrar as armas presentes no jogo e sua mudança de formato conforme o aumento de nível. 
+        </p>
+        <p>
+            Cada arma possuirá um título (nome da arma) e logo abaixo estará as suas respectivas imagens organizadas da seguinte maneira:
+            <ol type="1">
+                <li>Formato +0</li>
+                <li>Formato +10</li>
+                <li>Formato +12</li>
+                <li>Formato Gold</li>
+                <li>Formato Avanço 3</li>
+            </ol>
+        </p>
+        <p>
+            Você pode escolher o tipo da arma clicando no seu respectivo botão e alternar a arma visualizada clicando nas setas da direita/esquerda.
+        </p>
+        
+        <h2 class="h202_inicio">Glossário:</h2>
+    
+    <div class="tipo-armas">
+        <button id="btnComuns" class="tipo-btn ativo" type="button">Armas Comuns</button>
+        <button id="btnRaras" class="tipo-btn" type="button">Armas Raras</button>
+    </div>
+    <div class="glossario-box">
+        <div class="glossario-topo">
+            <button class="glossario-seta" id="armaPrev" type="button" aria-label="Arma anterior">❮</button>
+
+            <h3 class="titulo_armas" id="armaTitulo"></h3>
+
+            <button class="glossario-seta" id="armaNext" type="button" aria-label="Próxima arma">❯</button>
+        </div>
+
+        <div class="glossario-imagens">
+            <div class="glossario-item">
+            <img id="armaImg1" src="" alt="" />
+            <p>Formato +0</p>
+        </div>
+
+        <div class="glossario-item">
+            <img id="armaImg2" src="" alt="" />
+            <p>Formato +10</p>
+        </div>
+
+        <div class="glossario-item">
+            <img id="armaImg3" src="" alt="" />
+            <p>Formato +12</p>
+        </div>
+
+        <div class="glossario-item">
+            <img id="armaImg4" src="" alt="" />
+            <p>Formato Gold</p>
+        </div>
+
+        <div class="glossario-item">
+            <img id="armaImg5" src="" alt="" />
+            <p>Formato Avanço 3</p>
+        </div>
+  </div>
+</div>
+
+<script src="../../JS/glossario-slider.js"></script>
+        <p class="p_final">
+        </p>
+        </div class="div_paginas">
+
+      <script src="../../JS/include.js"></script>
+</body>
+</html>
