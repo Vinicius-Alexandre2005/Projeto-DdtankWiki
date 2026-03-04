@@ -46,6 +46,13 @@ h3{
     margin: 30px;
 }
 
+h4{
+    font-style: normal;
+    font-family: poppins;
+    color: rgb(231, 227, 227);
+    margin: 30px;
+}
+
 p{
     font-style: normal;
     font-family: poppins;
@@ -182,6 +189,10 @@ ol{
   color: rgb(212, 208, 208);
 }
 
+.img-instancias{
+    width: 650px;
+    height: 400px;
+}
 
 
 
